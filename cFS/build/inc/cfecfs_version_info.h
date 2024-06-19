@@ -1,15 +1,15 @@
 /* Auto-generated version information file */
 #define MISSION_CONFIG      "sample"
 #define MISSION_NAME        "SampleMission"
-#define SAMPLEMISSION_VERSION "bootes-rc2"
-#define CI_LAB_VERSION "v2.4.0-rc1"
-#define TO_LAB_VERSION "v2.4.0-rc1"
-#define SCH_LAB_VERSION "v2.4.0-rc1"
-#define SAMPLE_APP_VERSION "v1.2.0-rc1"
-#define SAMPLE_LIB_VERSION "v1.2.0-rc1"
-#define CFE_VERSION "v6.8.0-rc1-1-gef5291ac"
-#define OSAL_VERSION "v5.1.0-rc1-1-gf7f39f1c"
-#define PSP_VERSION "v1.5.0-rc1"
+#define SAMPLEMISSION_VERSION "faaa0e2-dirty"
+#define CI_LAB_VERSION "error/unknown"
+#define TO_LAB_VERSION "error/unknown"
+#define SCH_LAB_VERSION "error/unknown"
+#define SAMPLE_APP_VERSION "error/unknown"
+#define SAMPLE_LIB_VERSION "error/unknown"
+#define CFE_VERSION "error/unknown"
+#define OSAL_VERSION "error/unknown"
+#define PSP_VERSION "error/unknown"
 
 #define MISSION_VERSION SAMPLEMISSION_VERSION
 
