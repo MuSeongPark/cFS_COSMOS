@@ -1,6 +1,6 @@
 INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/ci_lab
 INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/to_lab
-INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/sch_lab
+INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/sch
 INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/sample_app
 INPUT += /home/pms3620/cFS_COSMOS/cFS/apps/sample_lib
 INPUT += /home/pms3620/cFS_COSMOS/cFS/psp

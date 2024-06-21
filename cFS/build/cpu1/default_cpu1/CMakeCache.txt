@@ -78,6 +78,12 @@ CFS_CI_LAB_IS_TOP_LEVEL:STATIC=OFF
 CFS_CI_LAB_SOURCE_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/apps/ci_lab
 
 //Value Computed by CMake
+CFS_SCH_BINARY_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/build/cpu1/default_cpu1/apps/sch
+
+//Value Computed by CMake
+CFS_SCH_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
 CFS_SCH_LAB_BINARY_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/build/cpu1/default_cpu1/apps/sch_lab
 
 //Value Computed by CMake
@@ -85,6 +91,9 @@ CFS_SCH_LAB_IS_TOP_LEVEL:STATIC=OFF
 
 //Value Computed by CMake
 CFS_SCH_LAB_SOURCE_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/apps/sch_lab
+
+//Value Computed by CMake
+CFS_SCH_SOURCE_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/apps/sch
 
 //Value Computed by CMake
 CFS_TO_LAB_BINARY_DIR:STATIC=/home/pms3620/cFS_COSMOS/cFS/build/cpu1/default_cpu1/apps/to_lab

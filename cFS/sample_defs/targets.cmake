@@ -103,7 +103,8 @@ SET(FT_INSTALL_SUBDIR "host/functional-test")
 
 # Each target board can have its own HW arch selection and set of included apps
 SET(TGT1_NAME cpu1)
-SET(TGT1_APPLIST ci_lab to_lab sch_lab)
+#SET(TGT1_APPLIST ci_lab to_lab sch_lab) #original
+SET(TGT1_APPLIST ci_lab to_lab sch)
 SET(TGT1_FILELIST cfe_es_startup.scr)
 
 # CPU2/3 are duplicates of CPU1.  These are not built by default anymore but are

@@ -341,30 +341,30 @@ TO_LAB_Subs_tables/fast:
 .PHONY : TO_LAB_Subs_tables/fast
 
 #=============================================================================
-# Target rules for targets named sch_lab
+# Target rules for targets named sch
 
 # Build rule for target.
-sch_lab: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sch_lab
-.PHONY : sch_lab
+sch: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sch
+.PHONY : sch
 
 # fast build rule for target.
-sch_lab/fast:
-	$(MAKE) $(MAKESILENT) -f apps/sch_lab/CMakeFiles/sch_lab.dir/build.make apps/sch_lab/CMakeFiles/sch_lab.dir/build
-.PHONY : sch_lab/fast
+sch/fast:
+	$(MAKE) $(MAKESILENT) -f apps/sch/CMakeFiles/sch.dir/build.make apps/sch/CMakeFiles/sch.dir/build
+.PHONY : sch/fast
 
 #=============================================================================
-# Target rules for targets named sch_lab_table_tables
+# Target rules for targets named sch_tables
 
 # Build rule for target.
-sch_lab_table_tables: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sch_lab_table_tables
-.PHONY : sch_lab_table_tables
+sch_tables: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 sch_tables
+.PHONY : sch_tables
 
 # fast build rule for target.
-sch_lab_table_tables/fast:
-	$(MAKE) $(MAKESILENT) -f apps/sch_lab/CMakeFiles/sch_lab_table_tables.dir/build.make apps/sch_lab/CMakeFiles/sch_lab_table_tables.dir/build
-.PHONY : sch_lab_table_tables/fast
+sch_tables/fast:
+	$(MAKE) $(MAKESILENT) -f apps/sch/CMakeFiles/sch_tables.dir/build.make apps/sch/CMakeFiles/sch_tables.dir/build
+.PHONY : sch_tables/fast
 
 #=============================================================================
 # Target rules for targets named sample_app
@@ -433,7 +433,7 @@ help:
 	@echo "... test"
 	@echo "... TO_LAB_Subs_tables"
 	@echo "... sampleAppTable_tables"
-	@echo "... sch_lab_table_tables"
+	@echo "... sch_tables"
 	@echo "... cfe-core"
 	@echo "... ci_lab"
 	@echo "... core-cpu1"
@@ -446,7 +446,7 @@ help:
 	@echo "... psp-pc-linux-shared"
 	@echo "... sample_app"
 	@echo "... sample_lib"
-	@echo "... sch_lab"
+	@echo "... sch"
 	@echo "... to_lab"
 	@echo "... ut_assert"
 	@echo "... ut_assert_pic"
